@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Website Layout</title>
+<style>
+body{
+    background:cornsilk;
+}
+input[type=text] {
+  width: 100%;
+  padding:12px 20px;
+    margin: 8px 0;
+ display: inline-block;
+ border: 1px solid gray;
+ border-radius: 4px;
+ box-sizing: border-box;
+ 
+
+
+}
+input[type=submit] {
+    background: gold;
+  width: 100%;
+  padding:10px;;
+ margin: 8px 0;
+ border: none;
+ display: inline-block;
+ border-radius: 5px;
+ cursor: pointer;
+
+}
+input[type=submit]:hover{
+    background:green;
+    color:whitesmoke;
+}
+h1{
+    text-align: center;
+}
+div {
+  border-radius: 5px;
+  background-color:lightgray;
+  padding: 20px;
+  width:600px;
+  height: 300px;
+  margin:50px 800px 400px ; 
+}
+a{
+    text-decoration: none;
+  
+}
+</style>
+</head>
+<body>
+    
+
+  <div id="log">
+        <h1>LOGIN PAGE</h1>
+    <label for="label">Email</label>
+
+    <input type="text" id="email" name="Email" placeholder="Enter your Email..">
+
+    <label for="label">Password</label>
+
+    <input type="text" id="Password" name="Password" placeholder="Password..">
+    <a href="#" >Forget Password</a>
+
+    <input type="submit" value="Submit">
+<a href="#" >Creat A New Account</a>
+  </div>
+</body>
+</html>
+ 
